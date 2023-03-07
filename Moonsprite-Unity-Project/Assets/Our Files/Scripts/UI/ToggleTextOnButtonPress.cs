@@ -10,7 +10,7 @@ public class ToggleTextOnButtonPress : MonoBehaviour
 
     void Start()
     {
-        textUp.alpha = 1;
+        textUp.
         textDown.alpha = 0;
     }
 
