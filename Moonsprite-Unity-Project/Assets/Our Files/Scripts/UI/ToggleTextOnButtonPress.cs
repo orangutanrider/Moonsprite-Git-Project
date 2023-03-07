@@ -5,24 +5,28 @@ using UnityEngine.UI;
 using TMPro;
 public class ToggleTextOnButtonPress : MonoBehaviour
 {
-    public TextMeshProUGUI textUp;
-    public TextMeshProUGUI textDown;
+    public TextMeshProUGUI buttonText;
 
     void Start()
     {
-        textUp.
-        textDown.alpha = 0;
-    }
-
-    public void ShowUp()
-    {
-        textUp.alpha = 1;
-        textDown.alpha = 0;
+        //textDown.alpha = 0;
     }
 
     public void ShowDown()
     {
-        textUp.alpha = 0;
-        textDown.alpha = 1;
+        //textUp.alpha = 0;
+        //textDown.alpha = 1;
+
+        RectTransform rectTransform = buttonText.GetComponent<RectTransform>();
+        rectTransform.position += new Vector3(+5, -5, 0);
+    } 
+
+    public void ShowUp()
+    {
+        //textUp.alpha = 1;
+        //textDown.alpha = 0;
+
+        RectTransform rectTransform = buttonText.GetComponent<RectTransform>();
+        rectTransform.position += new Vector3(-5, +5, 0);
     }
 }
