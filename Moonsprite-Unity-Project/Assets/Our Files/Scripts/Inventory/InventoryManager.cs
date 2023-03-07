@@ -7,12 +7,14 @@ public class InventoryManager : MonoBehaviour
     public GameObject slotPrefab;
     public Inventory playerInventory;
     public List<InventoryItem> inventoryItems = new List<InventoryItem>();
-    public List<InventorySlots> inventorySlots = new List<InventorySlots>(36); // this list is limited, however the inventory space is not, work out how to fix that
+    public List<InventorySlots> inventorySlots = new List<InventorySlots>(); // this list is limited, however the inventory space is not, work out how to fix that
                                                                                // public GameObject inventoryPanel;
+
+    public int slotNumber = 6;
 
     private void OnEnable()
     {
-
+        
         Inventory.OnInventoryChange += DrawnInventory;
 
     }
@@ -30,11 +32,12 @@ public class InventoryManager : MonoBehaviour
         {
             Destroy(childTransform.gameObject);
         }
-        inventorySlots = new List<InventorySlots>(36);
+        inventorySlots = new List<InventorySlots>(slotNumber);
     }
 
     void DrawnInventory(List<InventoryItem> inventory)
     {
+        
 
         ResetInventory();
 
@@ -74,8 +77,14 @@ public class InventoryManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        inventoryItems = FindObjectOfType<Inventory>().GetListOfItems();
-        DrawnInventory(inventoryItems);
+        
+        if (Time.frameCount % 60 == 0)
+        {
+
+            inventoryItems = FindObjectOfType<Inventory>().GetListOfItems();
+            //playerInventory.GetComponent<Inventory>;
+            DrawnInventory(inventoryItems);
+        }
     }
 
 
