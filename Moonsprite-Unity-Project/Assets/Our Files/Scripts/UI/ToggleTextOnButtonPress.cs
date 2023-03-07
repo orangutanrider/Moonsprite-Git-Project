@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+
 public class ToggleTextOnButtonPress : MonoBehaviour
 {
     public TextMeshProUGUI buttonText;
