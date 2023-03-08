@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Our Files/Misc/AL - Main Menu/Main Menu.unity
     guid: ecc143a783434b644966b83c62f010bd
+  - enabled: 1
+    path: Assets/Our Files/Misc/AL - Main Menu/Settings Menu.unity
+    guid: 731dc5ba9bf796a478278fe5772a918c
   m_configObjects: {}
