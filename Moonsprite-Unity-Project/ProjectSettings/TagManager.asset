@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -38,15 +39,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Ground
-    uniqueID: 1565146165
-    locked: 0
-  - name: Shadows
-    uniqueID: 2299770567
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: InFront
-    uniqueID: 1657064013
     locked: 0
