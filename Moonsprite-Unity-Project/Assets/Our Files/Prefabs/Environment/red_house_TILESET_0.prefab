@@ -103,7 +103,7 @@ MonoBehaviour:
     offset: 0
   movable: 0
   sortingPointOffset: 4.1
-  displayGizmos: 1
+  displayGizmos: 0
   setSortingOrderButton: 0
 --- !u!61 &501946981261033829
 BoxCollider2D:
