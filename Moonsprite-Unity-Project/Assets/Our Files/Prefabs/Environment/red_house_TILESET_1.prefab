@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5861492835520284170}
   - component: {fileID: 8161967366184284750}
+  - component: {fileID: -4484596229405786268}
   m_Layer: 0
   m_Name: red_house_TILESET_1
   m_TagString: Untagged
@@ -84,3 +85,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-4484596229405786268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4626147126013496632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765cc468b6554e1448ada7cced9b2c71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderers: []
+  movable: 0
+  sortingPointOffset: 0
+  displayGizmos: 0
+  setSortingOrderButton: 0
