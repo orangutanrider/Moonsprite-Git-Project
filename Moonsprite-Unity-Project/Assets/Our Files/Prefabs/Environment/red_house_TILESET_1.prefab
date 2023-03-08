@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5861492835520284170}
   - component: {fileID: 8161967366184284750}
   - component: {fileID: -4484596229405786268}
+  - component: {fileID: 4550090127774927873}
   m_Layer: 0
   m_Name: red_house_TILESET_1
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8161967366184284750
 SpriteRenderer:
@@ -97,8 +98,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 765cc468b6554e1448ada7cced9b2c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderers: []
+  spriteRenderers:
+  - spriteRenderer: {fileID: 8161967366184284750}
+    offset: 0
   movable: 0
   sortingPointOffset: 0
-  displayGizmos: 0
+  displayGizmos: 1
   setSortingOrderButton: 0
+--- !u!61 &4550090127774927873
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4626147126013496632}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.006239891, y: 3.46903}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.015}
+    oldSize: {x: 10.34375, y: 8.234375}
+    newSize: {x: 10.34375, y: 8.234375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.179546, y: 7.0680285}
+  m_EdgeRadius: 0

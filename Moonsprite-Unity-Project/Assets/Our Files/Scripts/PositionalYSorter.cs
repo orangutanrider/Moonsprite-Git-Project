@@ -34,6 +34,7 @@ public class PositionalYSorter : MonoBehaviour
         if (displayGizmos == true)
         {
             Gizmos.DrawWireSphere(new Vector3(transform.position.x, transform.position.y + sortingPointOffset), gizmoRadius);
+            Gizmos.DrawLine(new Vector3(float.MinValue, transform.position.y + sortingPointOffset), new Vector3(float.MaxValue, transform.position.y + sortingPointOffset));
         }
     }
 
