@@ -30,6 +30,7 @@ public class PositionalYSorter : MonoBehaviour
     public const float gizmoRadius = 0.01f;
     #endregion
 
+    // This draws debug visuals 
     void OnDrawGizmos()
     {
         if (displayGizmos == true)
