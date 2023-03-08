@@ -25,7 +25,7 @@ public class PositionalYSorter : MonoBehaviour
 
     #region Variables
     public const float sortingOrderMultiply = -10000; //sorting orders are int numbers so the yPosition has to be multiplied to get enough granularity
-    public const float gizmoRadius = 0.01f;
+    public const float gizmoRadius = 0.1f;
     #endregion
 
     // This draws debug visuals 

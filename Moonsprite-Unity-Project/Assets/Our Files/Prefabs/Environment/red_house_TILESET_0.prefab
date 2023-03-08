@@ -102,5 +102,5 @@ MonoBehaviour:
     offset: 0
   movable: 0
   sortingPointOffset: 0
-  displayGizmos: 0
+  displayGizmos: 1
   setSortingOrderButton: 0
