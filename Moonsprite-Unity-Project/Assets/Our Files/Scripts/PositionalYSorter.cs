@@ -12,7 +12,7 @@ public class PositionalYSorter : MonoBehaviour
     }
 
     #region Parameters
-    [Header("Select SpriteRenderers")]
+    [Header("Select SpriteRenderer(s)")]
     public List<SpriteRendererWithOffset> spriteRenderers = new List<SpriteRendererWithOffset>();
 
     [Header("Parameters")]
