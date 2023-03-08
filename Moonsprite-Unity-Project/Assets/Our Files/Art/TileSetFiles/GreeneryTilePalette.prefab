@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 3318978712498894746}
   - component: {fileID: 6231593221982159581}
   m_Layer: 0
-  m_Name: GreeneryTilePallete
+  m_Name: GreeneryTilePalette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

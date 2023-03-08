@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7589256006762000666}
   - component: {fileID: 3863917160614917344}
   m_Layer: 0
-  m_Name: PathRoadTilePallete
+  m_Name: PathRoadTilePalette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
