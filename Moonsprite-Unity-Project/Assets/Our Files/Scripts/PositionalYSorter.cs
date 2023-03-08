@@ -17,11 +17,9 @@ public class PositionalYSorter : MonoBehaviour
 
     [Header("Parameters")]
     public bool movable = false; [Tooltip("If it isn't movable, the sorting order will only be updated once (on start)")]
-    [Space]
     public float sortingPointOffset = 0;
+    [Space]
     public bool displayGizmos = false;
-
-    [Header("Parameters")]
     public bool setSortingOrderButton = false;
     #endregion
 
