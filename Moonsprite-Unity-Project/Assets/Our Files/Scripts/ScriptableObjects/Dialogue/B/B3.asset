@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb2d3d6e121aec4fbf3e966e5bb45e3, type: 3}
+  m_Name: B3
+  m_EditorClassIdentifier: 
+  storyText: "What should I Tell him? \n\n1- Explain about the Storm\n2- Lie and
+    tell everything is great"
+  NameText: 
+  nextStates:
+  - {fileID: 11400000, guid: 8fffa4ebbd8f69e46a416e23fb20de1f, type: 2}
+  - {fileID: 11400000, guid: 236f93811f4934e438ae6ef17bf24ab6, type: 2}
+  isPlayer: 1
+  isOver: 0
+  curSprite: 1
